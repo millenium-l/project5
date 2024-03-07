@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+}
+.li{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+}
+
+img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: beige;
+}
+
+ul{
+    display: flex; 
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.web{
+    margin-right: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: blue;
+}
+
+.what{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.what h1{
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+
+.what p{
+    color: plum;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.what a{
+    background: black;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 3px;
+}
+
+.images {
+    width: 40px;
+    height: -10;
+    position:absolute;
+    bottom: 150px;
+    right: 150px;
+}
+
+.images .boy{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    right: 200px;
+}
+
+/*.images .shape{
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s left;
+}*/
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+/*.images:hover .boy{
+    left: 45%;
+}*/
+.main2{
+    background-color: black;
+    text-align: center;
+    margin-top: 150px;
+    width: 100%;
+}
+
+.about{
+    color: white;
+}
+
+.content{
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-weight: bolder; 
+    margin-top: 38px;
+}
+
+.container{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+.item{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.item-1{
+    margin-left: 220px;
+}
+
+.main3{
+    background-color: aquamarine;
+    padding: 30px;
+    width: 100%;
+}
+.p{
+    font-weight: bolder;
+}
+
+.link {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    margin-left: 600px;
+}
+
+.link li {
+    margin-bottom: 10px; /* Adjust as needed */
+    display: block;
+}
+
+.link li .a{
+    text-decoration: none;
+}
+
